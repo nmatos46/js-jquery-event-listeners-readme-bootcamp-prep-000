@@ -7,7 +7,7 @@ function getIt(){
 
 function frameIt(){
   $('.tasty').on('load', function(){
-    $(this).addClass('tasty');
+    this.addClass('tasty');
   })
 }
 
